@@ -24,7 +24,7 @@
     <activity
         android:name=".ThirdActivity"
         android:label="第三个页面"
-        android:theme="@style/Theme.AppCompat.Dialog" />
+        android:theme="@style/MyDialog" />
   </application>
 
 </manifest>
