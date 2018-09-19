@@ -25,6 +25,7 @@ public class ThirdActivity extends Activity {
     win.setAttributes( lp );
   }
 
+
   public void onClickFinish(View view) {
     finish();
   }

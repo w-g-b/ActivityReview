@@ -11,6 +11,7 @@
       android:theme="@style/AppTheme">
     <activity
         android:name=".FirstActivity"
+        android:configChanges="orientation|screenSize"
         android:label="第一个页面">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

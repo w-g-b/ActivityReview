@@ -9,6 +9,7 @@ import android.view.View;
 public class SecondActivity extends AppCompatActivity {
 
   String msg = "ActivitySecond : ";
+
   /** 当活动第一次被创建时调用 */
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate( savedInstanceState );
@@ -60,7 +61,13 @@ public class SecondActivity extends AppCompatActivity {
   public void toThirdActivity(View view) {
     startActivity( new Intent( this, ThirdActivity.class ) );
   }
+
   public void onClickFinish(View view) {
+    finish();
+  }
+
+  public void callOnDestroy(View view) {
+    onDestroy();
     finish();
   }
 }

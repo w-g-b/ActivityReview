@@ -28,4 +28,10 @@
     <item name="android:windowCloseOnTouchOutside">false</item>
   </style>
 
+  <style name="TransparencyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- 设置是否透明 -->
+    <item name="android:windowIsTranslucent">true</item>
+    <!--<item name="android:background">@null</item>-->
+  </style>
+
 </resources>
